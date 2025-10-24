@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dazylook Photography - Professional Photography Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader-wrapper" id="loader">
+        <div class="loader">
+            <div class="loader-text">Dazylook</div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <a href="#home" class="logo">
+                <i class="fas fa-camera"></i>
+                Dazylook Photography
+            </a>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul id="navMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#video">Video Content</a></li>
+                    <li><a href="#booking">Booking</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Capturing Moments, Creating Memories</h1>
+            <p><b>Professional Photography Services for Every Special Occasion</b></p>
+            <a href="#gallery" class="btn">View Our Work</a>
+            <a href="#booking" class="btn btn-outline"><b>Book Now</b></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+    <div class="section-title">
+        <h2>About Dazylook Photography</h2>
+        <p>Crafting timeless visual memories filled with emotion and elegance</p>
+    </div>
+
+    <div class="about-content">
+        <div class="about-text">
+            <h3>Your Story Through Our Lens</h3>
+            <p>At Dazylook Photography, we believe every moment has a story waiting to be treasured. 
+            Our passionate team specializes in capturing life’s most heartfelt experiences — 
+            from weddings and engagements to newborn and family shoots. 
+            We blend creativity with professional expertise to deliver photographs that 
+            reflect genuine emotions, beautiful connections, and unforgettable celebrations.</p>
+
+            <p>We work closely with our clients to create personalized and heart-touching visual narratives 
+            that you can cherish for a lifetime. Whether it’s a grand occasion or a simple smile, 
+            we are here to preserve it with perfection.</p>
+
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+
+        <div class="about-image">
+            <video src="video3.mp4" controls autoplay muted loop></video>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="section-title">
+            <h2>Our Portfolio</h2>
+            <p>Browse through our collection of captured moments</p>
+        </div>
+        <div class="gallery-categories">
+            <button class="category-btn active" data-category="all">All</button>
+            <button class="category-btn" data-category="baby">Little Giggles</button>
+            <button class="category-btn" data-category="wedding">Wedding Forever and Always</button>
+            <button class="category-btn" data-category="photoshoot">Photoshoot</button>
+            <button class="category-btn" data-category="couple">Soulmate Frames</button>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item" data-category="baby">
+                <img src="img.jpeg" alt="Baby Photography" style="object-position: top;">   
+                <div class="gallery-overlay">
+                    <h3>Newborn Memories</h3>
+                </div>
+            
+            </div>
+            <div class="gallery-item" data-category="wedding">
+                <img src="https://media.istockphoto.com/id/866987706/photo/indian-wedding-hands.webp?a=1&b=1&s=612x612&w=0&k=20&c=aSL4uDc6-GtBj6j4-mEyISrN6mBo_Ryz2oXMk2XRVTw=" alt="Wedding Photography">
+                <div class="gallery-overlay">
+                    <h3>Wedding Bliss</h3>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="photoshoot">
+                <img src="https://images.unsplash.com/photo-1573914801465-4abb2b641771?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTh8MzI3MjA4OHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=600" alt="Professional Photoshoot">
+                <div class="gallery-overlay">
+                    <h3>Professional Portraits</h3>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="couple">
+                <img src="https://plus.unsplash.com/premium_photo-1661962828643-1a8abfc6a047?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTN8fGNvdXBsZSUyMG1vbWVudHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600" alt="Couple Photography">
+                <div class="gallery-overlay">
+                    <h3>Soulmate Frames</h3>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="baby">
+                <img src="https://media.istockphoto.com/id/1299305038/photo/newborn-baby-with-teddy-bear.webp?a=1&b=1&s=612x612&w=0&k=20&c=xysWVtXCS2-R4-mgtXbgcSBGdAypcNsdG1UEoTcWczQ=" alt="Baby Photography">
+                <div class="gallery-overlay">
+                    <h3>Baby's First Year</h3>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="wedding">
+                <img src="https://images.unsplash.com/photo-1523438885200-e635ba2c371e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdlZGRpbmclMjBjZXJlbW9ueXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600" alt="Wedding Photography">
+                <div class="gallery-overlay">
+                    <h3>Wedding Ceremony</h3>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="couple">
+                <img src="img3.jpeg" alt="Couple Photography" style="object-position: top;">
+                <div class="gallery-overlay">
+                    <h3>Pre-Wedding Shoot</h3>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="couple">
+                <img src="img4.jpeg" alt="Professional Photoshoot" style="object-position: top;">
+                <div class="gallery-overlay">
+                    <h3>Happy Moments</h3>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="photoshoot">
+                <img src="https://images.unsplash.com/photo-1481435471848-a5f4293c601b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw2ODU4MDgzfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&q=60&w=600" alt="Professional Photoshoot" >
+                <div class="gallery-overlay">
+                    <h3>Model Portfolio</h3>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <!-- YouTube Section -->
+    <section id="video" class="video-section">
+  <div class="section-title">
+    <h2>Our Work in Motion</h2>
+    <p>Watch our latest photography projects and behind-the-scenes footage</p>
+  </div>
+
+  <div class="video-link">
+    <a href="https://youtu.be/pjmYCXfF7fI?si=xykd4Ccn2io6Mypi" target="_blank" class="video-btn">Watch on YouTube</a>
+  </div>
+
+  <div class="video-container">
+    <div class="video-container2">
+      <video src="vid.mp4" controls autoplay muted loop></video>
+    </div>
+  </div>
+
+ 
+
+</section>
+
+
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+        <div class="section-title">
+            <h2>Book Your Session</h2>
+            <p>Reserve your photography session with us today</p>
+        </div>
+        <form class="booking-form" id="bookingForm">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone"  placeholder="Enter your phone number">
+                </div>
+                <div class="form-group">
+                    <label for="date">Preferred Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="service">Service Type</label>
+                <select id="service" name="service" required>
+                    <option value="" disabled selected>Select a service</option>
+                    <option value="baby">Baby Photography</option>
+                    <option value="wedding">Wedding Photography</option>
+                    <option value="photoshoot">Professional Photoshoot</option>
+                    <option value="couple">Pre-Wedding Photography</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Additional Details</label>
+                <textarea id="message" name="message" placeholder="Tell us more about your photography needs..."></textarea>
+            </div>
+            <button type="submit" class="btn">Submit Booking Request</button>
+        </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-title">
+            <h2>Get In Touch</h2>
+            <p>We'd love to hear from you. Contact us for any inquiries.</p>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>98764-41974</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>mahimamahima66064@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Address</h3>
+                        <p>Near boys school, Malout</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h3>Business Hours</h3>
+                        <p>Monday - Saturday: 9:00 AM - 7:00 PM</p>
+                        <p>Sunday: By Appointment</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3 >Any Query</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="contactName">Your Name</label>
+                        <input type="text" id="contactName" name="contactName"  placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactEmail">Your Email</label>
+                        <input type="email" id="contactEmail" name="contactEmail" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactMessage">Message</label>
+                        <textarea id="contactMessage" name="contactMessage" placeholder="Enter your message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Dazylook Photography</h3>
+                <p>Capturing life's beautiful moments with professional photography services for all occasions.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#booking">Book Now</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#gallery">Baby Photography</a></li>
+                    <li><a href="#gallery">Wedding Photography</a></li>
+                    <li><a href="#gallery">Professional Photoshoot</a></li>
+                    <li><a href="#gallery">Couple Photography</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-phone"></i> 98764-41974</p>
+                <p><i class="fas fa-envelope"></i> mahimamahima66064@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Near boys school, Malout</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Dazylook Photography. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modal for Gallery -->
+    <div id="imageModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="Gallery Image">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
